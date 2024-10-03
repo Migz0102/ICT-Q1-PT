@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Merging Cells in Tables</title>
+</head>
+<body>
+    <h2>Merging Cells</h2>
+    <table border="1">
+        <tr>
+            <th colspan="2">Merged Header</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Rowspan Cell</td>
+            <td>Cell 1</td>
+        </tr>
+        <tr>
+            <td>Cell 2</td>
+        </tr>
+    </table>
+
+    <h2>Nesting Tables</h2>
+    <table border="1" cellspacing="5">
+        <tr>
+            <td>
+                Outer Table Cell
+            </td>
+        </tr>
+        <tr>
+                <table border="1">
+                    <tr>
+                        <td>Nesting Table Cell 1</td>
+                        <td>Nesting Table Cell 2</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
